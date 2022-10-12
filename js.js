@@ -8,7 +8,7 @@ const getWeekDay = (date) => {
     .toLocaleDateString("uk-UK", { weekday: "short" })
     .toUpperCase();
 };
-let datee = new Date(2012, 0, 3);
+let datee = new Date(2012, 0, 4);
 document.write(getWeekDay(datee));
 
 // ---------------------------------Завдання 3----------------------------------------
